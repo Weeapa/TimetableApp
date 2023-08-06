@@ -40,6 +40,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449BC5F72A7F155F007AD748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				449BC5F82A7F156F007AD748 /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		449BC5F82A7F156F007AD748 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		44FF4BE12A7F0F4F00F01683 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +76,7 @@
 		44FF4BEC2A7F0F5000F01683 /* TimetableApp */ = {
 			isa = PBXGroup;
 			children = (
+				449BC5F72A7F155F007AD748 /* Resources */,
 				44FF4C022A7F0FB100F01683 /* Applications */,
 				44FF4C012A7F0F6F00F01683 /* SupportingFiles */,
 				44FF4BF12A7F0F5000F01683 /* ViewController.swift */,
@@ -101,7 +117,6 @@
 				A7B850FEE49EDE5D13BDF7B9 /* Pods-TimetableApp.debug.xcconfig */,
 				189211F439CA43D8445B5A64 /* Pods-TimetableApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
